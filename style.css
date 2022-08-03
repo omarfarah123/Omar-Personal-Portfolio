@@ -76,8 +76,9 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; 
     padding: 1%;
+
   }
   #Work img{
     width: 350px;
@@ -111,12 +112,46 @@ body {
     font-weight: bold;
     text-decoration: none;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 0px) and (max-width: 768px) {
     header {
       flex-direction: column;
     }
     #MiniRacer img{
       width: 400px;
       height: 400px;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 800px) {
+    #MiniRacer img{
+      width: 450px;
+      height: 450px;
+    }
+  }
+
+  @media screen and (min-width: 801px) and (max-width: 860px) {
+    #MiniRacer img{
+      width: 550px;
+      height: 550px;
+    }
+  }
+
+  @media screen and (min-width: 861px) and (max-width: 915px) {
+    #MiniRacer img{
+      width: 650px;
+      height: 550px;
+    }
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1000px) {
+    #MiniRacer img{
+      width: 750px;
+      height: 650px;
+    }
+  }
+
+  @media screen and (min-width: 1001px) and (max-width: 1200px) {
+    #MiniRacer img{
+      width: 850px;
+      height: 750px;
     }
   }
