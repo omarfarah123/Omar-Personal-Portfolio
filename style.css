@@ -71,6 +71,10 @@ body {
   .About-Me {
     font-size: larger;
     text-align: center;
+  } 
+  .About-Me img {
+    width: 300px;
+    height: 300px;
   }
   #Work {
     display: flex;
